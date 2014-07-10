@@ -43,8 +43,7 @@ public class Chapter2_1 {
 	}
 
 	public static void main(String[] args) {
-		LinkedListNode first = new LinkedListNode(0, null, null); // AssortedMethods.randomLinkedList(1000,
-																	// 0, 2);
+		LinkedListNode first = new LinkedListNode(0, null, null); 
 		LinkedListNode head = first;
 		LinkedListNode second = first;
 		for (int i = 1; i < 20; i++) {
