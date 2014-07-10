@@ -46,4 +46,13 @@ public class LinkedListNode {
 		LinkedListNode head2 = new LinkedListNode(data, next2, null);
 		return head2;
 	}
+	
+	public void addtail(LinkedListNode n){
+		LinkedListNode end = n;
+		LinkedListNode c = this;
+		while (c.next !=null){
+			c =c.next;
+		}
+		c.setNext(end);
+	}
 }
